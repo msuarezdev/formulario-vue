@@ -1,20 +1,19 @@
+
 <template>
   <div id="app">
-    <form />
+    <formulario />
   </div>
 </template>
 
 <script>
-import form coder from './components/Form.vue'
-
+import formulario from './components/FormularioComponent.vue'
 export default {
   name: 'App',
   components: {
-    formcoder
+    formulario
   }
 }
 </script>
 
 <style>
-
 </style>
